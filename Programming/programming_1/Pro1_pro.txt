@@ -1,0 +1,19 @@
+Programming 1(Programming)
+Category 	Programming
+Score 	50
+
+
+Q:Reversing Words in a String. fix the code get the flag.
+
+Code
+function Yo(bro){
+return bro.split('')_reverse().join('');
+}
+Yo('}ysae_esreveR_tpircSavaJ{FTCB');
+
+#################################################################
+
+
+Reversing Words in a String ဆိုပီး hint ေပးထားပီး ေတာ့ JavaScript code အခ်ို့ေပးထားပါတယ္။ "Yo('}ysae_esreveR_tpircSavaJ{FTCB');" ဆိုတဲ့ reverse လုပ္ထားတဲ့ Flag ေလး ေတြ့ပါတယ္။ Yo () ထည္းက စာသားကို ယူပီးေတာ့ Firefox plugin "hack bar" ကို သံုးပီး reverse ျပန္လုပ္ လိုက္တဲ့အခါ "BCTF{JavaScript_Reverse_easy}" ဆိုပီးတာ့ Flag အတည့္အတိုင္းျပန္ရလာပါတယ္။
+																				
+																										solved by Sargon <3Idiots>
