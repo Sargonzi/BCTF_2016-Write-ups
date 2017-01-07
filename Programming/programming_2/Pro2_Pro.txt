@@ -11,6 +11,8 @@ lol()
 
 #############################################################################################################
 
-python program ေလးေပးထားပါတယ္။ Binary to ASCII ကို Convert လုပ္ရမာပါ။ ဒီမာ က်န္ေတာ္တို့ program ကို မrun ေတာ့ပါ ဘူး။save ပီး run ရင္လည္း error ေတြ တက္လာပါလိမ့္မယ္။ အဲ့ဒါေၾကာင့္ code ထည္းမာ ပါတဲ့ binary string ('0100001001000011010101000100011001111011010000100110100101101110010111110011001001011111011000010101001101100011010010010100100101111101')တစ္ခုလံုးကို ကူးပီး online tools (http://www.binaryhexconverter.com/binary-to-ascii-text-converter)မာသြားပီး convert လုပ္လိုက္တဲ့အခါမာ "BCTF{Bin_2_aScII}" ဆိုတဲ့Flag ေလး ရလာပါတယ္။
+python program ေလးေပးထားပါတယ္။ Binary to ASCII ကို Convert လုပ္ရမာပါ။ ဒီမာ က်န္ေတာ္တို့ program ကို မrun ေတာ့ပါ ဘူး။save ပီး run ရင္လည္း error ေတြ တက္လာပါလိမ့္မယ္။
+အဲ့ဒါေၾကာင့္ code ထည္းမာ ပါတဲ့ binary string ('0100001001000011010101000100011001111011010000100110100101101110010111110011001001011111011000010101001101100011010010010100100101111101')တစ္ခုလံုးကို
+ကူးပီး online tools (http://www.binaryhexconverter.com/binary-to-ascii-text-converter)မာသြားပီး convert လုပ္လိုက္တဲ့အခါမာ "BCTF{Bin_2_aScII}" ဆိုတဲ့Flag ေလး ရလာပါတယ္။
 
-																						solved by Sargon <3Idiots>
+																											solved by Sargon <3Idiots>
