@@ -1,0 +1,16 @@
+Misc 3(Misc)
+Category Misc
+Score 50
+
+Q: I have one friend. He name is Roman. Do you know him?
+	He give me message but i don't understand. Try to read it.
+
+
+"LXVI LXVII LXXXIV LXX CXXIII LXXXII CXI CIX XCVII CX XCV CX CXVII CIX CI CXIV CV XCIX XCV CXIX CV CXVI CIV XCV XCVIII XCVII CXV CI LIV LII CXXV" .
+
+#################################################################################################
+
+Cipher text ေလးေပးထားပါတယ္။ ဒီ Cipher ကေတာ့ Roman cipher ျဖစ္ပါတယ္။ ဒီ link မာ "http://www.web40571.clarahost.co.uk/roman/num1.htm" မာ reference ၾကည့္ႏိုင္ပါတယ္။ က်န္ေတာ္ကေတာ့ onine tools ကို သံုးပီးေတာ့ Flag ေဖာ္ထားပါတယ္။ onine tool link "https://cryptii.com/roman-numerals/text"။Flag ကေတာ့ "BCTF{Roman_numeric_with_base64}"ဆိုပီးရပါတယ္။
+
+
+																								Solved by Sargon<3Idiots>

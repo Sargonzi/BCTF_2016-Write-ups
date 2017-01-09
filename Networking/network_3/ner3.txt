@@ -1,0 +1,17 @@
+Network 3(Network)
+Category 	Network
+Score 	100
+Q:find the flag in ftp
+
+https://10.0.0.2/files/ff104b2dfab9fe8c0676587292a636d3.pcapng
+
+############################################################
+
+
+network 1 လိုပဲlinke ကို သြားပီး down လိုက္ပါ။ ရလာတဲ့ pcap file ကို "string ff104b2dfab9fe8c0676587292a636d3.pcapng | grep BCTF " commend  နဲ့ ရွာလိုက္တဲ့ အခါ 
+"
+BCTF{let_her_go}
+BCTF{let_her_go}
+" 
+ဆိုပီးေတာ့ flag ရလာပါတယ္။
+																							solved by Sargon <3Idiots>

@@ -1,0 +1,18 @@
+Prgramming 4(Category - Programming)
+Score - 100
+
+Q:
+My Friend write Ruby code.But his baby was changing on the code. Fix the program and Guess the flag.
+
+#!/usr/bin/ruby
+a = "612251df69aa19ac0054cc284bd0daa840abd1";
+b = "2361059912f229de5f03ed5c238fa8dd22f2ac";
+c = (a.to_i(16) ^ b.to_i(16)).to_s(16);
+print c;
+
+
+#####################################################
+
+	ဒီေမးခြန္းမာေတာ့ ruby နဲ့ ေရးထားတဲ့ code ေလးေတြေပးထားပါတယ္။ အဲ့ဒါေၾကာင့္ text editor မာ code ေတြကို Paste ပီး ".rb" extensions နဲ့ computer ထည္းsave လိုက္ပါတယ္။ ကြ်န္ေတာ္ကေတာ့ "Pro4.rb" လို့ save လိုက္ပါတယ္။ save ထားတဲ့ dir မာပဲ "ruby Pro4.rb" ဆိုပီး run လိုက္ပါ။ code ေတြျပင္စရာမလုိပါဘူး အားလံုးမွန္ပါတယ္။ Hex number ေလးေတြ "424354467b5830725f572174685f727562597d" 38 လံုး output အေနနဲ့ ထြက္မာပါတယ္။ အဲ့ဒီ Hex number ေတြကို "Hack bar" ကို အသံုးျပုပီး "char" ကို ေျပာင္း လုိက္ပါတယ္" Flag ေလးထြက္လာပါပီ။
+BCTF{X0r_W!th_rubY}
+																										solved by Sargon<3Idiots>

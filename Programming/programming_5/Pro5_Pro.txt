@@ -1,0 +1,13 @@
+Programming5(Category - Programming)
+Score - 200
+
+Q: I have eval javascirpt code. I can't find the corret flag. Try to work the program.
+
+https://10.0.0.2/files/c6e4c447cfbed8e0c6de7379e156c421.html.zip
+
+
+######################################################
+
+ေမးခြန္းမာ ".html.zip" file ေလး ေဒါင္းဖို့ link ေလးေပးထားပါတယ္။ အဲ့ဒီ link ထည္းသြားပီး ေတာ့ down လိုက္ပီး ေတာ့ extract လုပ္ပီး html file ကို ဖြင့္ လိုက္ပါတယ္။ find the flag ဆိုတဲ့ စာသားကို alert ျပပါလိမ္မယ္။ အဲ့ဒါကို "Fire bug" plugin နွင့္ ဖြင့္ပီးၾကည့္လိုက္ပါတယ္။Firebug plugin ကိုFirefox broswer plugins မာ ေဒါင္းလုပ္ရယူနိုင္ပါတယ္။ Fire Bug ရဲscript tab ရဲ့ watch tab ထည္းမာ " BCTF{JavaScript_Ev@l_c0de_f0und}" ဆိုတဲ့ Flag ေလးကိုရလာမာပါ။ 
+																		Soved by Sargon<3Idiots>
+

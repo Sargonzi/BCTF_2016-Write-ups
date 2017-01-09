@@ -1,0 +1,54 @@
+Programming6 (Category - Programming) 
+Score 100
+
+Q: What is the contry name ?
+
+The flag format is BCTF{the country name in lowercase}
+
+#!/usr/bin/env python
+from turtle import *
+
+def fill_rect(width, height, fill_color):
+color(fill_color)
+begin_fill()
+for distance in (width, height) * 2:
+forward(distance)
+right(90)
+end_fill()
+
+def draw_flag():
+back(150)
+fill_rect(300, 50, '#52D6FF')
+fill_rect(300, -50, '#52D6FF')
+left(-90); up(); forward(100); down();
+fill_rect(50, -300, '#FFF700')
+fill_rect(-50, -300, '#FFF700')
+##################################################
+
+python code ေလးေပးထားပါတယ္။ ေမးခြန္းကေတာ့ country name ကိုေျဖေပးရမာပါ။ ဒီ code ေတြ ကို ".py" extension နဲ့ "Pro6.py" ဆိုပီးsave လိုက္ပါတယ္။ python code run ဖို့ မိမိ ကြန္ပ်ူတာမာ python ကို install လုပ္ထားပီးသားေတာ့ျဖစ္ရပါမယ္။ code save ထားတဲ့ dir ထည္းမာပဲ  "python Pro6.py" ဆိုပီး run လိုက္ပါ။ Error တက္ပါတယ္။ IndentationError ပါ။ အဲ့ဒါေၾကာင့္ Indents ေတြ ျပင္လိုက္ပါတယ္။
+"
+#!/usr/bin/env python
+from turtle import *
+
+def fill_rect(width, height, fill_color):
+	color(fill_color)
+	begin_fill()
+	for distance in (width, height) * 2:
+		forward(distance)
+		right(90)
+		end_fill()
+
+def draw_flag():
+	back(150)
+fill_rect(300, 50, '#52D6FF')
+fill_rect(300, -50, '#52D6FF')
+left(-90); up(); forward(100); down();
+fill_rect(50, -300, '#FFF700')
+fill_rect(-50, -300, '#FFF700') "
+
+Save ပီး ျပန္ run လုိက္ပါ။GUI window ေလး တက္လာပီး country flag ပံုကို အျပာနွင့္ အ၀ါ color outline ေလးကို ဆြဲျပပါလိမ့္မယ္။ flags ေတြကို Google မာ ရွာပီး တိုက္ၾကည့္ လိုက္ေတာ့ Ukraine flag နဲ့ တူပါတယ္။ အဲ့တာေၾကာင့္ BCTF format အတိုင္း ျပင္လိုက္ေတာ့ "BCTF{ukraine}"ဆိုတဲ့ Flag ေလးရလာပါတယ္။
+
+																									solved by Sargon <3Idiots>
+
+
+

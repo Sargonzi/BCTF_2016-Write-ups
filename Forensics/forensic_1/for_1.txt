@@ -1,0 +1,31 @@
+Forensic 1(Forensic)
+Category 	Forensic
+Score 	50
+
+Q: What is this file? flag is inside the file...
+
+https://10.0.0.2/files/50-flag.zip
+
+#################################################
+
+ဒီ challenge မာ file download လုပ္ဖို့ "https://10.0.0.2/files/50-flag.zip" link ေလးေပးထားပါတယ္။ အဲ့linkကို ၀င္လိုက္ရင္ Download file zip file ေလးတစ္ file ရလာပါလိမ့္မယ္။ extract ျဖည့္လိုက္ရင္ 50-flag ဆိုတဲ့ file တစ္ဖိုင္ရလာပါလိမ့္မယ္။ အဲ့ဒီဖိုင္ကို "file 50-flag" commend နဲ့ ၾကည့္လိုက္တဲ့  အခါ "LZMA compressed data" ဆိုပီး lzma format ဆိုတာေတြ့ရပါလိမ့္မယ္။ ဒါေၾကင့္ "lzma" commend သံုးပီး extract ျဖည့္ပါတယ္။ မရပါဘူး။ "50-flag" ဆိုတဲ့ file ကို "50-flag.tar.xz" လို့ rename ေျပာင္းလိုက္ပါတယ္။ ပီးေနာက္ extract လုပ္ဖို့ python program တစ္ခုကို " extract.py" လို့ name ေပးပီး "50-flag.tar.xz" file နဲ့ dir တစ္ခုထည္းထားပီးrun လိုက္တဲ့ အခါ flag file ေလးရလာပါတယ္။ file ေလးကို ဖြင့္ၾကည့္လိုက္ရင္ "BCTF{ziP_File_Brok3n}" ဆိုတဲ့ Flag ေလးကို ရရွိလာပါပီ။
+
+
+:-D python program နဲ့ မrun ပဲ "50-flag.tar.xz" file ကို double-click နိပ္ပီးလည္း extract ျဖည္ရင္ရပါတယ္။
+
+note: "extract.py" python source code 
+
+
+"""
+import contextlib
+import lzma
+import tarfile
+
+with contextlib.closing(lzma.LZMAFile('50-flag.tar.xz')) as xz:
+    with tarfile.open(fileobj=xz) as f:
+        f.extractall('.')
+
+""""
+
+
+																					Solved by Sargon<3Idiots>

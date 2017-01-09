@@ -1,0 +1,14 @@
+Network 7(Network)
+Category 	Network
+Score 	100
+
+Q:find the easy flag
+
+https://10.0.0.2/files/48bb6e862e54f2a795ffc4e541caed4d.pcap.zip
+
+##############################################################################
+
+
+pcap file down ဖို့ link ေလးေပးထားပါတယ္။ link ၀င္ပီး ေဒါင္းလိုက္ပါတယ္။ ပီေတာ့ zip file ကို extract ျဖည့္ လိုက္ပါတယ္။ "strings 48bb6e862e54f2a795ffc4e541caed4d.pcap > out.txt " ဆိုတဲ့ commend နဲ့ text file ထုပ္လိုက္ပါတယ္။ out.txt ကို ဖြင့္ပီး Find နဲ့ flag ကိုရွာေဖြလိုက္တဲ့ အခါမာ line no 47 မာ Flag လို့ ထင္ရတဲ့ စာသား "PASS {c0mbine_g3t_fl@g}" ကိုေတြပါတယ္။ အဲ့ဒီ စာသားကို "BCTF{c0mbine_g3t_fl@g}" တို့တဲ့ BCTF format ေျပာင္းပီး ထည့္လိုက္ပါတယ္။
+
+																								Solved by Sargon <3Idiots>

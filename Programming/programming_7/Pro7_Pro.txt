@@ -1,0 +1,44 @@
+Programming7 (Category - Programming)
+Score - 100
+
+Q:	C program not running on my machine. Find the right flag. Flag format is BCTF{string_value}.
+
+
+#include
+
+int max(int num1, int num2);
+
+int main () {
+
+int a = 40000778;
+int b = 48406343;
+int c = 400007783;
+int d = 300007784;
+int e = 300007785;
+int ret;
+
+ret = max(a, b);
+
+printf( "BCTF{%d}\n", ret );
+
+
+return 0;
+}
+
+int maxn(int num1, int num2) {
+
+int result;
+
+if (num1 > num2)
+result = num1;
+else
+result = num2;
+
+return result;
+}
+
+#################################
+
+ေမးထားတဲ့ code ကို ၾကည့္ပီး C program ဆိုတာ သိႏိုင္ပါတယ္။ အဲ့ဒါေၾကာင့္ code ေတြကို text editor ထည္း ပီး pro7.c ဆိုပီး save လိုက္ပါတယ္။ ပီးေတာ့ "gcc pro7.c -o out" နဲ့ compile လုပ္ လိုက္တဲ့ အခါမာ error တက္လာပါတယ္။ hader declare မလုပ္ထားတာပါ။ code ကို ေသျခာ ျပန္ၾကည့္ လိုက္ရင္ ပထမ ဆံုး line မာ "#include " ပဲ declare လုပ္ထားပါတယ္။ အဲ့တာေၾကာင့္ " #include <stdio.h>" လို့ ျပင္ေရးလိုက္ပါတယ္။ compile ျပန္လုပ္ပါတယ္ error ျပန္ေတြ့ပါတယ္။ " undefined reference to 'max' " ဆိုပီး error ျပန္ေတြ့ပါတယ္။ code line no - 22 မာ "int maxn(int num1, int num2)" ဆိုပီး ျဖစ္ေနပါတယ္ "int max(int num1, int num2)" ဆိုပီး ျပင္လိုက္ပါတယ္။ "gcc pro7.c -o out" ဆိုပီး ျပန္ compile လုပ္လိုက္ပါတယ္။ error မရွိေတာ့ပါဘူး။ out ဆိုတဲ့ နာမည္နဲ့ ELF ဖိုင္ေလး ထြက္လာပါတယ္။ 
+"./out " ဆိုတဲ့ commend နဲ့ run လိုက္တဲ့ အခါ မာ "BCTF{48406343}" ဆုိုပီး flag ေလးထြက္ပါတယ္။ ဒီတိုင္းထည့္လို့ မရေသးပါဘူး Hex value ေတြျဖစ္ေနပါသးတယ္။ Hex to char ကို ေျပာင္းရပါမယ္။ မိမိနွစ္သက္ရာ tools ႏွင့္ေျပာင္းႏိုင္ပါတယ္။ က်န္ေတာ္ကေတာ့ Hack bar ကို အသံုးျပုပီး ေျပာင္းလိုက္ေတာ့ "H@cC" ဆိုပီးထြက္လာပါတယ္။ "BCTF{H@cC}" ဆိုတဲ့ flag ေလးရလာပါပီ။ 
+																								Solved by Sargon<3Idiots>

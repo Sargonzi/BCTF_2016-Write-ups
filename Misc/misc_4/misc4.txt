@@ -1,0 +1,16 @@
+Misc 4(Misc)
+Category 	Misc
+Score 	50
+
+Q: Can you help me to decode the flag of this message? uu.
+
+("?0D-41GM)7VMN,'=?>6]U7VMN,'=?=75E;F-O9&5D?0`` `")
+
+###################################################################################
+
+ေမးခြန္းမာ uu ဆိုပီးေတာ့ uu cipher ျဖစ္ေၾကာင္းကို hint ေပးထားတာပါ။ ဒီတစ္ခါလည္း online tool ကိုပဲအသံုးျပုပမယ္။ "http://www.dcode.fr/uu-encoding" ဒီလင့္မာသြားပီး ေပးထားတဲ့ cipher text ကို descript လုပ္လိုက္တဲ့ အခါမာေတာ့ "BCTF{I_kn0w_you_kn0w_uuencoded}" Flag ေလး ရလာပါတယ္။
+
+
+																								Solved by Sargon<3Idiots>
+
+

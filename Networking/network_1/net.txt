@@ -1,0 +1,85 @@
+Network 1(Network)
+Category 	Network
+Score 	50
+
+Q:find the flag...
+
+https://10.0.0.2/files/d5391c6d83445a053034d686a66ca873.pcapng
+
+
+#################################################
+
+ေပးထားတဲ့ link ကုိ သြားပီး pcapng ကို ေဒါင္းလိုက္ပါတယ္။ ရလာတဲ့ file ကို "strings d5391c6d83445a053034d686a66ca873.pcapng | grep BCTF " commend နဲ့ ရွာလုိက္တဲ့ အခါ
+
+"
+11/09/2016  04:30 PM    <DIR>          BCTF
+E:\BCTF>
+ Directory of E:\BCTF
+11/09/2016  04:24 PM           495,616 BCTF_PASSWORD.accdb
+11/09/2016  04:24 PM                 0 BCTF_PASSWORD.bmp
+11/09/2016  04:26 PM            11,411 BCTF_PASSWORD.docx
+11/09/2016  04:24 PM           180,224 BCTF_PASSWORD.mpp
+11/09/2016  04:24 PM                 0 BCTF_PASSWORD.p65
+11/09/2016  04:24 PM                 0 BCTF_PASSWORD.pm6
+11/09/2016  04:24 PM            62,976 BCTF_PASSWORD.pmd
+11/09/2016  04:30 PM            29,783 BCTF_PASSWORD.pptx
+11/09/2016  04:25 PM            59,904 BCTF_PASSWORD.pub
+11/09/2016  04:25 PM                20 BCTF_PASSWORD.rar
+11/09/2016  04:25 PM                 7 BCTF_PASSWORD.rtf
+11/09/2016  04:29 PM                18 BCTF_PASSWORD.txt
+11/09/2016  04:30 PM            25,399 BCTF_PASSWORD.vsdx
+11/09/2016  04:25 PM             6,168 BCTF_PASSWORD.xlsx
+11/09/2016  04:25 PM                22 BCTF_PASSWORD.zip
+E:\BCTF>
+[30;1HE:\BCTF>       
+E:\BCTF>
+[30;1HE:\BCTF>       
+[30;1HE:\BCTF>       
+[30;1HE:\BCTF>       
+[30;1HE:\BCTF>       
+ Directory of E:\BCTF
+E:\BCTF>
+ Directory of E:\BCTF
+11/09/2016  04:24 PM           495,616 BCTF_PASSWORD.accdb
+11/09/2016  04:24 PM                 0 BCTF_PASSWORD.bmp
+11/09/2016  04:26 PM            11,411 BCTF_PASSWORD.docx
+11/09/2016  04:24 PM           180,224 BCTF_PASSWORD.mpp
+11/09/2016  04:24 PM                 0 BCTF_PASSWORD.p65
+11/09/2016  04:24 PM                 0 BCTF_PASSWORD.pm6
+11/09/2016  04:24 PM            62,976 BCTF_PASSWORD.pmd
+11/09/2016  04:30 PM            29,783 BCTF_PASSWORD.pptx
+11/09/2016  04:25 PM            59,904 BCTF_PASSWORD.pub
+11/09/2016  04:25 PM                20 BCTF_PASSWORD.rar
+11/09/2016  04:25 PM                 7 BCTF_PASSWORD.rtf
+11/09/2016  04:29 PM                18 BCTF_PASSWORD.txt
+11/09/2016  04:30 PM            25,399 BCTF_PASSWORD.vsdx
+11/09/2016  04:25 PM             6,168 BCTF_PASSWORD.xlsx
+11/09/2016  04:25 PM                22 BCTF_PASSWORD.zip
+E:\BCTF>
+[30;1HE:\BCTF>       
+E:\BCTF>
+BCTF{easy_to_find}
+E:\BCTF>
+E:\BCTF>
+[4;1HE:\BCTF>
+[5;1HE:\BCTF>more BCTF_PASSWORD.txt
+[6;1HBCTF{easy_to_find}
+[26;1HE:\BCTF>ping 192.168.0.253
+[2;1HE:\BCTF>
+[3;1HE:\BCTF>more BCTF_PASSWORD.txt
+[4;1HBCTF{easy_to_find}
+[6;1HE:\BCTF>ipconfig  
+[24;1HE:\BCTF>ping 192.168.0.253            
+[17;1HE:\BCTF>ping 192.168.0.253                          
+[30;1HE:\BCTF>\
+E:\BCTF>
+[9;1HE:\BCTF>\nslookup                                 
+[13;1HE:\BCTF>nslookup                  
+[8;1HE:\BCTF>\nslookup
+[12;1HE:\BCTF>nslookup
+[30;1HE:\BCTF>
+" 
+ဆိုတဲ့ result ရလာပါတယ္။ အဲ့ဒီ result ထည္းမာ "BCTF{easy_to_find}" ဆိုတဲ့ flag ေလးပါလာပါတယ္။။
+
+																						Solved by Sargon<3Idiots>
+																						solved by Sargon <3Idiots>
